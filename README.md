@@ -72,6 +72,8 @@ chmod +x install
 ./install auto
 systemctl start codedeploy-agent
 systemctl enable codedeploy-agent
+---
+
 🔐 IAM Roles Used
 Role Name	Purpose
 EC2-CodeDeploy-Role	Allows EC2 to receive deployments
@@ -114,3 +116,4 @@ Deploy using ECS or EKS
 
 📎 Maintainer
 Abdullah
+
