@@ -1,0 +1,10 @@
+{
+	"name": "aws-cicd-nodejs-app",
+	"version": "1.0.0",
+	"description": "Node.js app deployed using AWs CI/CD",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"No tests yet\""
+	}
+}
