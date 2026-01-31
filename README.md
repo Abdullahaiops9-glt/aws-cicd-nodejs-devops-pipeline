@@ -68,12 +68,15 @@ For pushing the Project from vm to github and for troubleshooting common Git pus
 #!/bin/bash
 yum update -y
 yum install -y nodejs ruby wget
+
 cd /home/ec2-user
-wget https://aws-codedeploy-<region>.s3.amazonaws.com/latest/install
+wget https://aws-codedeploy-eu-west-2.s3.amazonaws.com/latest/install
 chmod +x install
 ./install auto
+
 systemctl start codedeploy-agent
 systemctl enable codedeploy-agent
+
 ---
 
 🔐 IAM Roles Used
@@ -118,5 +121,6 @@ Deploy using ECS or EKS
 
 📎 Maintainer
 Abdullah
+
 
 
