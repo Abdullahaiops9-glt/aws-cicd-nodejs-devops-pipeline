@@ -61,6 +61,7 @@ For pushing the Project from vm to github and for troubleshooting common Git pus
 - **Security Group:**
   - SSH (22) → My IP
   - HTTP (80) → 0.0.0.0/0
+  - Custom TCP (3000) → 0.0.0.0/0
 - **IAM Role:** EC2-CodeDeploy-Role
 
 ### User Data Script
@@ -121,6 +122,7 @@ Deploy using ECS or EKS
 
 📎 Maintainer
 Abdullah
+
 
 
 
