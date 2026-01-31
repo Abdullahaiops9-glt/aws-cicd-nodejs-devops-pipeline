@@ -52,6 +52,8 @@ app/
 ├── screenshots/ # Deployment screenshots
 └── README.md
 ---
+## Git Push Reference
+For pushing the Project from vm to github and for troubleshooting common Git push errors, see [GIT_PUSH_HELP.md]
 
 ## ⚙️ EC2 Configuration
 - **AMI:** Amazon Linux 2
@@ -116,4 +118,5 @@ Deploy using ECS or EKS
 
 📎 Maintainer
 Abdullah
+
 
